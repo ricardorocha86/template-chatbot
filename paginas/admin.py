@@ -13,7 +13,7 @@ st.write("Aplicativo desenvolvido por [@ricardorocha86](https://www.linkedin.com
 st.write('Versão 0.0.2')
 
 senha = st.text_input('Senha de administrador:', type='password')
-if senha == 'eita':
+if senha == 'admim':    #SENHA PARA ACESSAR O BANCO DE DADOS - RECURSO PROVISORIO PARA PROTOTIPAGEM, REQUER MAIS SEGURANÇA NISSO
     # Inicializar o cliente Firestore
     db = firestore.client()
     
